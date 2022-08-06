@@ -51,7 +51,7 @@ export default function MyRoutes() {
         </ul>
 
         <img
-          src="https://img.icons8.com/ios/100/000000/user--v1.png"
+          src="https://istoe.com.br/wp-content/uploads/2022/05/stranger-things-novo-poster.jpg"
           alt=""
           className="
             w-8
