@@ -7,12 +7,6 @@ import Series from "../Pages/Series";
 import Sidebar from "../components/Sidebar";
 
 export default function MyRoutes() {
-
-
-
-
-
-
   return (
     <BrowserRouter>
       <nav
@@ -57,7 +51,7 @@ export default function MyRoutes() {
         </ul>
 
         <img
-          src="src\assets\3.png"
+          src="https://img.icons8.com/ios/100/000000/user--v1.png"
           alt=""
           className="
             w-8
