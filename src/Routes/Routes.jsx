@@ -62,6 +62,7 @@ export default function MyRoutes() {
             md:h-16
             rounded-full
             border
+            object-cover
         "
         />
       </nav>
