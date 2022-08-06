@@ -15,15 +15,15 @@ export default function api() {
     }
 
     const tv = fetchApi(
-      `https://api.themoviedb.org/3/tv/popular?api_key=b6e4ad003421248c7843499f10553775&language=pt-BR&page=1`
+      `https://api.themoviedb.org/3/tv/popular?api_key=b6e4ad003421248c7843499f10553775&adult=false&language=pt-BR&page=1`
     );
 
     const populares = fetchApi(
-      `https://api.themoviedb.org/3/movie/popular?api_key=b6e4ad003421248c7843499f10553775&language=pt-BR&page=${page}`
+      `https://api.themoviedb.org/3/movie/popular?api_key=b6e4ad003421248c7843499f10553775&adult=false&language=pt-BR&page=${page}`
     );
 
     const now = fetchApi(
-      `https://api.themoviedb.org/3/movie/now_playing?api_key=b6e4ad003421248c7843499f10553775&language=en-US&page=3`
+      `https://api.themoviedb.org/3/movie/now_playing?api_key=b6e4ad003421248c7843499f10553775&language=pt-BR&adult=false&page=3`
     );
 
     populares.then((response) => setPopularMovies(response.results));
