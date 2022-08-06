@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link);
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+:root {
+  --cor-de-fundo: #051e3b;
+  --branco: white;
+  --link: white;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--cor-de-fundo);
+  color: var(--branco);
+}
+
+@media (max-width: 480px) {
+}
+
+.btn {
+  @apply block 
+  shadow 
+  text-white 
+  p-4 
+  rounded
+  text-center
+  font-semibold
+  mt-5
+  cursor-pointer;
+}
+
+.item-nav {
+  @apply text-xl 
+  sm:text-3xl 
+  md:text-4xl 
+  text-gray-400;
+}
+
+
